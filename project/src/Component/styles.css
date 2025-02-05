@@ -1,0 +1,201 @@
+/*Contains all background an whole detail of elements*/
+.weather-container {
+  background-size: cover;
+  background-position: center;
+  height: 95vh; /*fix height of interface*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px; /*padding*/
+}
+/*search bar styling*/
+.search-bar {
+  background: transparent; /*transparent background of search bar*/
+  border: none; /*no outline border in search bar*/
+  border-bottom: 2px solid #bbb8b8; /*bottom border of search bar*/
+  padding: 10px;
+  color: white; /*font color*/
+  font-size: 1rem; /*size of font in search bar*/
+  width: 100%;
+  max-width: none;
+  text-align: center;
+  text-align: left; /*set text align */
+  background-repeat: no-repeat;
+  background-position: right center;
+  align-self: flex-end;
+  background-size: 20px 20px;
+}
+/*styling the search button */
+.search-button {
+  background: transparent; /*set transparent background */
+  background-size: 20px 20px;
+  border: none; /*set border to none */
+  position: absolute; /*set the position of search button */
+  margin-left: 400px; /*set horizontal alignment of search button */
+}
+/*set button img styling */
+.search-button img {
+  width: 20px; /* Set the width */
+  height: 20px; /* Set the height */
+}
+/* contains all search styling */
+.search-container {
+  width: 110%;
+  display: flex; /* align image inline with search bar */
+  justify-content: center;
+  align-items: center;
+  margin-left: -25px; /*set left margin */
+}
+/*set searc-bar placeholder color and opacity */
+.search-bar::placeholder {
+  color: white;
+  opacity: 1;
+}
+/*contains the footer part */
+.main-info {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 590px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  gap: 15px;
+}
+/*set styling to temperature */
+.temperature {
+  font-size: 4rem; /*font size */
+  font-weight: 100;
+  color: #f5f0f0;
+  margin-right: 10px; /*right margin*/
+}
+/*styling location,date-time,condition together */
+.loc {
+  display: flex;
+  flex-direction: column; /*display in column */
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 30px; /*top margin */
+}
+/*styling location detail */
+.location {
+  font-size: 2rem; /*font size*/
+  margin-left: 20px; /*margin left */
+  margin-bottom: 0px;
+  margin-right: 20px;
+  color: #f9f2f2; /*font color */
+}
+.dc {
+  display: flex; /*inline date-time and condition */
+}
+/*set date-time ,condition styling */
+.date-time,
+.condition {
+  color: #fffefe; /*font color */
+  margin-top: 0px;
+  display: inline-block;
+  font-size: 1rem; /*font-size*/
+}
+.date-time {
+  margin-left: 20px; /*left margin */
+}
+/*margin for condition */
+.condition {
+  margin-left: 20px;
+}
+.weather-detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: -20px; /*left margin */
+}
+/*set image layout in weather */
+.weather-forecast img {
+  width: 24px; /*icon size*/
+  height: 24px; /*icon height */
+  margin-right: 10px; /*set margin */
+}
+/*set icon styling */
+.two img {
+  margin-left: 5px;
+  vertical-align: middle;
+  width: 18px; /* Adjust icon size */
+  height: 18px; /*adjust icon height */
+}
+/*set text styling */
+.hi {
+  margin-left: 40px; /*left margin */
+  font-size: 0.8rem; /*font size */
+}
+/*display in same line */
+.div2 {
+  display: flex;
+}
+.div3 {
+  margin-left: 250px; /*left margin */
+}
+/*weather details of right transparent block */
+.weather-info {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-left: 2px solid rgb(220, 220, 225); /*left border with widht */
+  width: 30%;
+  background: rgba(0, 0, 0, 0.5); /*transparent background */
+  margin: 0px 80px;
+  padding: 0px 60px;
+  margin: 0;
+  align-items: flex-start;
+  justify-content: flex-end;
+  text-align: left; /*text align left */
+}
+/*set both container value */
+.weather-detail,
+.weather-forecast {
+  color: white;
+  padding: 15px;
+  border-radius: 8px; /* raduis of border */
+  width: auto;
+  text-align: left;
+  margin-left: -20px; /*left margin */
+}
+.weather-forecast {
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  width: 110%;
+  max-height: 400px; /* Limit the height for scrolling */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.fine {
+  display: flex;
+}
+.weather-detail h3,
+.weather-forecast h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.cont {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+/*unordered list styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+/*list sttyling */
+li {
+  font-size: 1rem;
+  margin: 7px 0;
+}
+/*hr line styling */
+.line {
+  border: 1px solid #d1cdcd;
+  margin: 0px -20px; /*margin */
+  width: -50%; /*size */
+}
+li.one {
+  text-align: left;
+}
